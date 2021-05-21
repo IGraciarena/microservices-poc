@@ -2,9 +2,9 @@ package igraciarena.poc.mscustomers.application.output;
 
 import igraciarena.poc.mscustomers.adapters.output.dbentities.Customer;
 import igraciarena.poc.mscustomers.adapters.output.persistance.CustomerRepository;
-import igraciarena.poc.mscustomers.exceptions.NotFoundException;
-import igraciarena.poc.mscustomers.input.DeleteCustomerUseCase;
-import igraciarena.poc.mscustomers.input.commands.DeleteCustomerCommand;
+import igraciarena.poc.mscustomers.application.exceptions.NotFoundException;
+import igraciarena.poc.mscustomers.application.input.DeleteCustomerUseCase;
+import igraciarena.poc.mscustomers.application.input.commands.DeleteCustomerCommand;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

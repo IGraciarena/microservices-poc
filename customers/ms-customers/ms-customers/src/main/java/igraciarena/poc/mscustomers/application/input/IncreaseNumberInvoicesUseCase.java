@@ -1,7 +1,7 @@
-package igraciarena.poc.mscustomers.input;
+package igraciarena.poc.mscustomers.application.input;
 
 
-import igraciarena.poc.mscustomers.input.commands.IncreaseNumberInvoicesCommand;
+import igraciarena.poc.mscustomers.application.input.commands.IncreaseNumberInvoicesCommand;
 
 public interface IncreaseNumberInvoicesUseCase {
 

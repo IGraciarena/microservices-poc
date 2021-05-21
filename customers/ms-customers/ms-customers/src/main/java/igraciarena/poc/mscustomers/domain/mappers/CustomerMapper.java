@@ -1,7 +1,7 @@
 package igraciarena.poc.mscustomers.domain.mappers;
 
 import igraciarena.poc.mscustomers.adapters.output.dbentities.Customer;
-import igraciarena.poc.mscustomers.input.commands.CreateCustomerCommand;
+import igraciarena.poc.mscustomers.application.input.commands.CreateCustomerCommand;
 import igraciarena.poc.mscustomers.domain.dtos.CustomerResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

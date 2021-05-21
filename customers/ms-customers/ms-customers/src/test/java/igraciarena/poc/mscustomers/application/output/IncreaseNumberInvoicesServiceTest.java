@@ -2,7 +2,7 @@ package igraciarena.poc.mscustomers.application.output;
 
 import igraciarena.poc.mscustomers.adapters.output.dbentities.Customer;
 import igraciarena.poc.mscustomers.adapters.output.persistance.CustomerRepository;
-import igraciarena.poc.mscustomers.input.commands.IncreaseNumberInvoicesCommand;
+import igraciarena.poc.mscustomers.application.input.commands.IncreaseNumberInvoicesCommand;
 import igraciarena.poc.mscustomers.utils.StubFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

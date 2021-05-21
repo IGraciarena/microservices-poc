@@ -1,4 +1,4 @@
-package igraciarena.poc.mscustomers.input.querys;
+package igraciarena.poc.mscustomers.application.input.querys;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package igraciarena.poc.mscustomers.input.commands;
+package igraciarena.poc.mscustomers.application.input.commands;
 
 import igraciarena.poc.mscustomers.domain.dtos.CustomerDTO;
 import lombok.Getter;

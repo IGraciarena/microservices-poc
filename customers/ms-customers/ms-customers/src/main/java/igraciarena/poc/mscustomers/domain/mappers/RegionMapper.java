@@ -1,7 +1,7 @@
 package igraciarena.poc.mscustomers.domain.mappers;
 
 import igraciarena.poc.mscustomers.adapters.output.dbentities.Region;
-import igraciarena.poc.mscustomers.input.commands.CreateRegionCommand;
+import igraciarena.poc.mscustomers.application.input.commands.CreateRegionCommand;
 import igraciarena.poc.mscustomers.domain.dtos.RegionResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

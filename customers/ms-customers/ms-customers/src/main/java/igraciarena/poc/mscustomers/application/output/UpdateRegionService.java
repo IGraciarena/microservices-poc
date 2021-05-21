@@ -2,9 +2,9 @@ package igraciarena.poc.mscustomers.application.output;
 
 import igraciarena.poc.mscustomers.adapters.output.dbentities.Region;
 import igraciarena.poc.mscustomers.adapters.output.persistance.RegionRepository;
-import igraciarena.poc.mscustomers.exceptions.NotFoundException;
-import igraciarena.poc.mscustomers.input.UpdateRegionUseCase;
-import igraciarena.poc.mscustomers.input.commands.UpdateRegionCommand;
+import igraciarena.poc.mscustomers.application.exceptions.NotFoundException;
+import igraciarena.poc.mscustomers.application.input.UpdateRegionUseCase;
+import igraciarena.poc.mscustomers.application.input.commands.UpdateRegionCommand;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

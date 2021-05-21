@@ -1,7 +1,7 @@
 package igraciarena.poc.mscustomers.application.output;
 
 import igraciarena.poc.mscustomers.adapters.output.persistance.RegionRepository;
-import igraciarena.poc.mscustomers.input.commands.DeleteRegionCommand;
+import igraciarena.poc.mscustomers.application.input.commands.DeleteRegionCommand;
 import igraciarena.poc.mscustomers.utils.StubFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

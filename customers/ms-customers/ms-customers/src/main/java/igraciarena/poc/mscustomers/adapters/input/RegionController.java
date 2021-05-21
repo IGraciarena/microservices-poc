@@ -2,14 +2,14 @@ package igraciarena.poc.mscustomers.adapters.input;
 
 
 import igraciarena.poc.mscustomers.domain.dtos.*;
-import igraciarena.poc.mscustomers.input.CreateRegionUseCase;
-import igraciarena.poc.mscustomers.input.DeleteRegionUseCase;
-import igraciarena.poc.mscustomers.input.FindRegionByIdUseCase;
-import igraciarena.poc.mscustomers.input.UpdateRegionUseCase;
-import igraciarena.poc.mscustomers.input.commands.CreateRegionCommand;
-import igraciarena.poc.mscustomers.input.commands.DeleteRegionCommand;
-import igraciarena.poc.mscustomers.input.commands.UpdateRegionCommand;
-import igraciarena.poc.mscustomers.input.querys.FindRegionByIdQuery;
+import igraciarena.poc.mscustomers.application.input.CreateRegionUseCase;
+import igraciarena.poc.mscustomers.application.input.DeleteRegionUseCase;
+import igraciarena.poc.mscustomers.application.input.FindRegionByIdUseCase;
+import igraciarena.poc.mscustomers.application.input.UpdateRegionUseCase;
+import igraciarena.poc.mscustomers.application.input.commands.CreateRegionCommand;
+import igraciarena.poc.mscustomers.application.input.commands.DeleteRegionCommand;
+import igraciarena.poc.mscustomers.application.input.commands.UpdateRegionCommand;
+import igraciarena.poc.mscustomers.application.input.querys.FindRegionByIdQuery;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

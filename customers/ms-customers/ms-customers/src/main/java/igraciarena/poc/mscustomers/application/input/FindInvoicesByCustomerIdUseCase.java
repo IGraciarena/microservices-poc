@@ -1,7 +1,7 @@
-package igraciarena.poc.mscustomers.input;
+package igraciarena.poc.mscustomers.application.input;
 
 
-import igraciarena.poc.mscustomers.input.querys.FindInvoicesByCustomerIdQuery;
+import igraciarena.poc.mscustomers.application.input.querys.FindInvoicesByCustomerIdQuery;
 import igraciarena.poc.mscustomers.domain.dtos.InvoiceDTO;
 
 import java.util.List;

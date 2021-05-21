@@ -1,12 +1,13 @@
 package igraciarena.poc.mscustomers.adapters.input;
 
+import igraciarena.poc.mscustomers.application.input.*;
 import igraciarena.poc.mscustomers.domain.dtos.*;
 import igraciarena.poc.mscustomers.input.*;
-import igraciarena.poc.mscustomers.input.commands.CreateCustomerCommand;
-import igraciarena.poc.mscustomers.input.commands.DeleteCustomerCommand;
-import igraciarena.poc.mscustomers.input.commands.UpdateCustomerCommand;
-import igraciarena.poc.mscustomers.input.querys.FindCustomerByIdQuery;
-import igraciarena.poc.mscustomers.input.querys.FindInvoicesByCustomerIdQuery;
+import igraciarena.poc.mscustomers.application.input.commands.CreateCustomerCommand;
+import igraciarena.poc.mscustomers.application.input.commands.DeleteCustomerCommand;
+import igraciarena.poc.mscustomers.application.input.commands.UpdateCustomerCommand;
+import igraciarena.poc.mscustomers.application.input.querys.FindCustomerByIdQuery;
+import igraciarena.poc.mscustomers.application.input.querys.FindInvoicesByCustomerIdQuery;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

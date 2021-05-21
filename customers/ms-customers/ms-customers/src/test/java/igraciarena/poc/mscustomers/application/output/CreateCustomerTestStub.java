@@ -4,7 +4,7 @@ import igraciarena.poc.mscustomers.adapters.output.dbentities.Customer;
 import igraciarena.poc.mscustomers.adapters.output.persistance.CustomerRepository;
 import igraciarena.poc.mscustomers.adapters.output.persistance.RegionRepository;
 import igraciarena.poc.mscustomers.domain.dtos.CustomerDTO;
-import igraciarena.poc.mscustomers.input.commands.CreateCustomerCommand;
+import igraciarena.poc.mscustomers.application.input.commands.CreateCustomerCommand;
 import igraciarena.poc.mscustomers.utils.StubFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -2,9 +2,9 @@ package igraciarena.poc.mscustomers.application.output;
 
 import igraciarena.poc.mscustomers.adapters.output.dbentities.Region;
 import igraciarena.poc.mscustomers.adapters.output.persistance.RegionRepository;
-import igraciarena.poc.mscustomers.exceptions.NotFoundException;
-import igraciarena.poc.mscustomers.input.FindRegionByIdUseCase;
-import igraciarena.poc.mscustomers.input.querys.FindRegionByIdQuery;
+import igraciarena.poc.mscustomers.application.exceptions.NotFoundException;
+import igraciarena.poc.mscustomers.application.input.FindRegionByIdUseCase;
+import igraciarena.poc.mscustomers.application.input.querys.FindRegionByIdQuery;
 import igraciarena.poc.mscustomers.domain.dtos.RegionResponse;
 import igraciarena.poc.mscustomers.domain.mappers.RegionMapper;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
 package igraciarena.poc.mscustomers.application.output;
 
-import igraciarena.poc.mscustomers.input.FindInvoicesByCustomerIdUseCase;
-import igraciarena.poc.mscustomers.input.querys.FindInvoicesByCustomerIdQuery;
+import igraciarena.poc.mscustomers.application.input.FindInvoicesByCustomerIdUseCase;
+import igraciarena.poc.mscustomers.application.input.querys.FindInvoicesByCustomerIdQuery;
 import igraciarena.poc.mscustomers.domain.dtos.InvoiceDTO;
 import igraciarena.poc.proto.CustomerId;
 import igraciarena.poc.proto.InvoiceServiceGrpc;
