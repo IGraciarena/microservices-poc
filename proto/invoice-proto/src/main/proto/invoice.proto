@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "igraciarena.poc.proto";
+option java_outer_classname = "InvoiceProto";
+
+message Invoice{
+  int64 invoiceId = 1;
+  double total = 2;
+  string createAt = 3;
+}
+
+message CustomerId{
+  int64 customerId = 1;
+}
+
+message Invoices{
+  repeated Invoice invoice = 1;
+}
+
+service InvoiceService{
+  rpc invoices(CustomerId) returns (Invoices);
+}
